@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+--cor0:#F2EEEB;
+--cor1:#D9CBBF;
+--cor2:#8C6249;
+--cor3:#73694D;
+--cor4:#564C46;
+
+--font-padrao: arial, verdana, helvetica, sans-serif;
+--font-primaria: 'bellota text', 'cursive';
+--font-secundaria: 'montserrat', 'cursive';
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    display: flex;
+}
+header > img{
+    width: 100vh;
+    margin: auto;
+    align-items: center;
+    padding: 0px;
+}
+main{
+    background-image: url(foto/coluna-fundo-dra-2.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;  
+    width: 98.8vw;
+    display: flex;
+    margin: auto;
+}
+.conteudo{
+    display: block;
+    background-color: #D9CBBF;
+    font-family: var(--font-secundaria);
+    max-width: 500px;
+    margin: 30px;
+    padding: 0px;
+    font-size: 1em;
+    height: 500px;
+    border-radius: 20px;
+}
+div> p{
+    margin: 10px;
+}
+.menu{
+    display: flex;
+    margin: 0px;
+    background-color: #564C46;
+    justify-content: center;
+}
+.aba1{
+    display: inline-block;
+    background-color: #564C46;
+    padding: 0px;
+    margin: 0px;
+    padding:10px 22px 10px 22px;
+    color: white;
+    text-decoration: none;
+}
+.aba1:hover{
+    background-color: #8C6249;
+
+}
+footer{
+    background-color: green;
+}
