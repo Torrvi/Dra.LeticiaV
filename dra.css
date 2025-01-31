@@ -16,13 +16,13 @@ body{
     padding: 0px;
 }
 
-header{
+picture{
     background-color: var(--cor4);
     color: white;
     padding: 10px;
     display: flex;
 }
-header > img{
+picture > img{
     width: 100vh;
     margin: auto;
     align-items: center;
@@ -46,7 +46,7 @@ main{
     margin: 30px;
     padding: 0px;
     font-size: 1em;
-    height: 500px;
+    min-height: 500px;
     border-radius: 20px;
 }
 div> p{
