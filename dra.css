@@ -31,7 +31,7 @@ picture > img{
 main{
     background-image: url(foto/coluna-fundo-dra-2.png);
     background-size: cover; 
-    background-position: center; 
+    background-position: top; 
     background-repeat: no-repeat; 
     height: 100vh;  
     width: 98.8vw;
